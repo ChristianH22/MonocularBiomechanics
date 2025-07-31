@@ -10,7 +10,8 @@ requires-python = "~=3.11"
 dependencies = [
     "gradio",
     "plotly",
-    "jax",
+    "jax[cuda12]",
+    "tensorflow",
     "jaxlie",
     "jmp",
     "equinox",
